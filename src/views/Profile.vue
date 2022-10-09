@@ -1,6 +1,6 @@
 <template>
-  <div class="logo">
-    
+  <div class="profile container">
+    профиль
   </div>
 </template>
 

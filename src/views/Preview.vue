@@ -16,7 +16,7 @@
         <span class="team-name">laVIDA</span>
       </div>
       <div class="info">
-        <img src="../assets/Preview/user-logo.svg" alt="">
+        <img src="../assets/Preview/user-logo.svg" alt="" />
         <span>Основная аудитория - студенты.</span>
       </div>
     </div>
@@ -27,7 +27,7 @@
 
 <style>
 .preview {
-  padding: 125px 140px 56px 125px;
+  padding: 50px 140px 56px 125px;
 }
 .idea {
   background: #125cec;
@@ -61,9 +61,9 @@ p {
   width: 596px;
 }
 .bottom-info {
-    margin-top: 78px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 78px;
+  display: flex;
+  justify-content: space-between;
 }
 .team {
   display: flex;
@@ -73,12 +73,8 @@ p {
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
-
-  /* identical to box height, or 100% */
   letter-spacing: 1px;
   text-transform: uppercase;
-
-  /* Text / Secondary */
   color: #747474;
 }
 .team-name {
@@ -86,44 +82,40 @@ p {
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-
-  /* identical to box height, or 136% */
   letter-spacing: -0.01em;
-
-  /* Text / Primary */
   color: #282828;
 }
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info span {
-    width: 166px;
-    font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-
-/* or 114% */
-text-align: center;
-
-color: #747474;
+  width: 166px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #747474;
 }
 @media screen and (max-width: 1500px) {
-    .preview {
-        padding: 25px 25px 56px 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .title {
-        font-size: 72px;
-        display: flex;
-        justify-content: center;
-    }
-    p {
-        font-size: 24px;
-        width: inherit;
-    }
+  .preview {
+    padding: 25px 25px 56px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title {
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-size: 24px;
+    width: inherit;
+  }
+  .header {
+    display: none;
+  }
 }
 </style>

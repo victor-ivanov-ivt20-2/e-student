@@ -1,6 +1,6 @@
 <template>
-  <div class="logo">
-    
+  <div class="lenta container">
+    лента
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="logo">
-    
+  <div class="student-work container">
+    СРС
   </div>
 </template>
 
